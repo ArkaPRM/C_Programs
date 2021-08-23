@@ -1,0 +1,13 @@
+#include <stdio.h>
+void main ()
+{
+  int fn,sn,add;
+  float average;
+  printf ("Enter First Number");
+  scanf("%d", &fn);
+  printf ("Enter Second Number");
+  scanf("%d", &sn);
+  add=fn+sn;
+  average=add/2;
+  printf("The sum and average are %d and %f", add, average);
+}
