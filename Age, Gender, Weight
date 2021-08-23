@@ -1,0 +1,9 @@
+#include <stdio.h>
+void
+main ()
+{
+  int age = 30;
+  float W = 68.5;
+  char gender = 'm';
+  printf ("The gender is %c, age is %d, weight is %f.", gender, age, W);
+}
