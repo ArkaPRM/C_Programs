@@ -1,0 +1,12 @@
+#include <stdio.h>
+/*Post-increment = a++
+Pre-increment = ++a
+Post-decrement = a--
+Pre-increment = --a
+*/
+void main ()
+{
+  int a = 5, b;
+  b=a++;
+  printf ("a=%d, b=%d", a, b);
+}
